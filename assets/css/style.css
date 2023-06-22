@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Updated header class tag to header element and div to section for semantics  */
+/* Updated header class tag to header element and div to section for semantics. This CSS pertains to the code found in the header element of the HTML  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +21,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -29,7 +29,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -51,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/* This CSS adds the background image to the page along with positioning it. */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,12 +71,33 @@ p {
     margin-left: 25px;
 }
 
+/* Pertains to the main content of the website listing the services the company offers. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Consolidated search engine opt, rep management, and marketing into one selector called services. */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services img {
+    max-height: 200px;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Pertains to the benefits section of the website where one will acquire info about the benefits of doing business with this company. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,112 +105,28 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Consolidated benefits lead, brand, and management CSS into one selector called perks */
+.perks {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.perks h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.perks img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* All CSS pertaining to the footer of the website. Helps with positioning on page. */
 footer {
     padding: 30px;
     clear: both;
